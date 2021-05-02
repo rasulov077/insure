@@ -1,6 +1,11 @@
+body {
+  background-color: #FFFFFF;
+  color: #837D88;
+
+}
 .humanizing {
-background-color: #2D2641;
-color: white;
+  background-color: #2D2641;
+  color: white;
 }
 .were {
   color: #2C2830;
@@ -24,9 +29,10 @@ color: white;
 .linklar a {
   text-decoration: none;
   list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .links {
-  text-decoration: none;
   list-style: none;
 }
 .link-help {
@@ -50,17 +56,59 @@ color: white;
 .snap-dollar-odam {
   list-style: none;
 }
-
-
-
-
-
-
-
-
-
-
-
+.links a {
+  text-decoration: none;
+}
+.link-help a {
+  text-decoration: none;
+}
+.link-contact a {
+  text-decoration: none;
+}
+.link-others a {
+  text-decoration: none;
+}
+.nav {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+}
+.hero a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.humanizing p {
+  font-style: 16px;
+  line-height: 26px;
+  height: 140px;
+  width: 540px;
+}
+.humanizing h1 {
+  font-size: 72px;
+  line-height: 64px;
+}
+.features ul {
+  display: flex;
+  color: #2C2830;
+}
+.features p {
+  width: 350px;
+  height: 78px;
+  color: #837D88;
+  line-height: 26px;
+  font-size: 16px;
+  font-style: normal;
+}
+.footer-link {
+  display: flex;
+}
+.div-links {
+  display: flex;
+  font-family: karla ;
+}
 
 
 
